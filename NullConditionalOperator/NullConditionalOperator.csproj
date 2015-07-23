@@ -48,6 +48,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CSharpSixTour.DataAccessLayer\CSharpSixTour.DataAccessLayer.csproj">
+      <Project>{2342be34-b5ad-466b-b4a5-10222495ecd7}</Project>
+      <Name>CSharpSixTour.DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharpSixTour.Domain\CSharpSixTour.Domain.csproj">
+      <Project>{6342039f-f06c-436e-8a9b-6036d9acbbe4}</Project>
+      <Name>CSharpSixTour.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

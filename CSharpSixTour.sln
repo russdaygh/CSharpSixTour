@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSixTour", "CSharpSixTour\CSharpSixTour.csproj", "{F64F28F6-8EB4-4E41-BCAF-0E08DE8C1C79}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullConditionalOperator", "NullConditionalOperator\NullConditionalOperator.csproj", "{60D85866-695E-4F0A-8DBC-65D6594C4B80}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionBodiedMembers", "ExpressionBodiedMembers\ExpressionBodiedMembers.csproj", "{26587C2A-80C6-48D5-89F5-404D5D2DAF1E}"
@@ -17,16 +15,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingStatic", "UsingStatic\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPropertyInitialisers", "AutoPropertyInitialisers\AutoPropertyInitialisers.csproj", "{90DC48BD-EAA3-4A37-B171-7F945A453285}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSixTour.Domain", "CSharpSixTour.Domain\CSharpSixTour.Domain.csproj", "{6342039F-F06C-436E-8A9B-6036D9ACBBE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSixTour.DataAccessLayer", "CSharpSixTour.DataAccessLayer\CSharpSixTour.DataAccessLayer.csproj", "{2342BE34-B5AD-466B-B4A5-10222495ECD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F64F28F6-8EB4-4E41-BCAF-0E08DE8C1C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F64F28F6-8EB4-4E41-BCAF-0E08DE8C1C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F64F28F6-8EB4-4E41-BCAF-0E08DE8C1C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F64F28F6-8EB4-4E41-BCAF-0E08DE8C1C79}.Release|Any CPU.Build.0 = Release|Any CPU
 		{60D85866-695E-4F0A-8DBC-65D6594C4B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{60D85866-695E-4F0A-8DBC-65D6594C4B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60D85866-695E-4F0A-8DBC-65D6594C4B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +49,14 @@ Global
 		{90DC48BD-EAA3-4A37-B171-7F945A453285}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90DC48BD-EAA3-4A37-B171-7F945A453285}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90DC48BD-EAA3-4A37-B171-7F945A453285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6342039F-F06C-436E-8A9B-6036D9ACBBE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6342039F-F06C-436E-8A9B-6036D9ACBBE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6342039F-F06C-436E-8A9B-6036D9ACBBE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6342039F-F06C-436E-8A9B-6036D9ACBBE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2342BE34-B5AD-466B-B4A5-10222495ECD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2342BE34-B5AD-466B-B4A5-10222495ECD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2342BE34-B5AD-466B-B4A5-10222495ECD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2342BE34-B5AD-466B-B4A5-10222495ECD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

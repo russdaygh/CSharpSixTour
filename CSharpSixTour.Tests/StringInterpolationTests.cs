@@ -13,7 +13,7 @@ namespace CSharpSixTour.Tests
         [TestInitialize]
         public void Initalise()
         {
-            Person = new Person {FirstName = "Muddy", LastName = "Boots"};
+            Person = new Person {FirstName = "First", LastName = "Last"};
         }
 
         [TestMethod]
@@ -21,7 +21,7 @@ namespace CSharpSixTour.Tests
         {
             var phrase = string.Format("Full name = {0} {1}", Person.FirstName, Person.LastName);
 
-            phrase.ShouldBe("Full name = Muddy Boots");
+            phrase.ShouldBe("Full name = First Last");
         }
 
         [TestMethod]
@@ -29,7 +29,7 @@ namespace CSharpSixTour.Tests
         {
             var phrase = $"Full name = {Person.FirstName} {Person.LastName}";
 
-            phrase.ShouldBe("Full name = Muddy Boots");
+            phrase.ShouldBe("Full name = First Last");
         }
 
         [TestMethod]

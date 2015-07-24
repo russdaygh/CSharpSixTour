@@ -56,10 +56,12 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="MockCurrencyExchange.cs" />
     <Compile Include="StringInterpolationTests.cs" />
     <Compile Include="NullConditionalOperatorTests.cs" />
     <Compile Include="Mocks\MockPersonRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ExceptionFiltersTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CSharpSixTour.Domain
+﻿namespace CSharpSixTour.Domain
 {
-    class ExchangeRate
+    public class ExchangeRate
     {
+        public Currency CurrencyA { get; set; }
+        public Currency CurrencyB { get; set; }
+        public decimal Rate { get; set; }
     }
 }

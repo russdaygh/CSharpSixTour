@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6342039F-F06C-436E-8A9B-6036D9ACBBE4}</ProjectGuid>
+    <ProjectGuid>{E06B7A97-131F-4BAC-A69D-A4063AF8EA8B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CSharpSixTour.Domain</RootNamespace>
@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Address.cs" />
+    <Compile Include="Country.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PhoneNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

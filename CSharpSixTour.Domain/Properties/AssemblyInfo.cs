@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("StringInterpolation")]
+[assembly: AssemblyTitle("CSharpSixTour.Domain")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("StringInterpolation")]
+[assembly: AssemblyProduct("CSharpSixTour.Domain")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("bb6acd32-70d5-4291-ad21-a38ba61324a7")]
+[assembly: Guid("e06b7a97-131f-4bac-a69d-a4063af8ea8b")]
 
 // Version information for an assembly consists of the following four values:
 //

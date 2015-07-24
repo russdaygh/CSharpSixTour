@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSixTour.DataAccessLay
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSixTour.Domain", "CSharpSixTour.Domain\CSharpSixTour.Domain.csproj", "{E06B7A97-131F-4BAC-A69D-A4063AF8EA8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSixTour.Tests", "CSharpSixTour.Tests\CSharpSixTour.Tests.csproj", "{291DBFEE-91C5-46D9-8ABD-914909121F48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E06B7A97-131F-4BAC-A69D-A4063AF8EA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E06B7A97-131F-4BAC-A69D-A4063AF8EA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E06B7A97-131F-4BAC-A69D-A4063AF8EA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{291DBFEE-91C5-46D9-8ABD-914909121F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{291DBFEE-91C5-46D9-8ABD-914909121F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291DBFEE-91C5-46D9-8ABD-914909121F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{291DBFEE-91C5-46D9-8ABD-914909121F48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Address.cs" />
     <Compile Include="Country.cs" />
+    <Compile Include="ExpressionBodiedMembers.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PhoneNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

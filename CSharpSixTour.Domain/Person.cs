@@ -3,7 +3,7 @@ using System.Net.Mail;
 
 namespace CSharpSixTour.Domain
 {
-    public class Person
+    public partial class Person
     {
         public Guid Id { get; set; }
         public string FirstName { get; set; }

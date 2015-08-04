@@ -60,6 +60,7 @@
     <Compile Include="NullConditionalOperatorTests.cs" />
     <Compile Include="Mocks\MockPersonRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleCircuitBreakerTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -72,6 +73,10 @@
     <ProjectReference Include="..\CSharpSixTour.Domain\CSharpSixTour.Domain.csproj">
       <Project>{E06B7A97-131F-4BAC-A69D-A4063AF8EA8B}</Project>
       <Name>CSharpSixTour.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharpSixTour.Patterns\CSharpSixTour.Patterns.csproj">
+      <Project>{2CE1AD8D-64C0-4413-94B5-0FED89734838}</Project>
+      <Name>CSharpSixTour.Patterns</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

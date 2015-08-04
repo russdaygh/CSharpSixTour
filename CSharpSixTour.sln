@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSixTour.Domain", "CSh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSixTour.Tests", "CSharpSixTour.Tests\CSharpSixTour.Tests.csproj", "{291DBFEE-91C5-46D9-8ABD-914909121F48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSixTour.Patterns", "CSharpSixTour.Patterns\CSharpSixTour.Patterns.csproj", "{2CE1AD8D-64C0-4413-94B5-0FED89734838}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{291DBFEE-91C5-46D9-8ABD-914909121F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{291DBFEE-91C5-46D9-8ABD-914909121F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{291DBFEE-91C5-46D9-8ABD-914909121F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE1AD8D-64C0-4413-94B5-0FED89734838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE1AD8D-64C0-4413-94B5-0FED89734838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE1AD8D-64C0-4413-94B5-0FED89734838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE1AD8D-64C0-4413-94B5-0FED89734838}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

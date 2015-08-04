@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CSharpSixTour.Domain
+﻿namespace CSharpSixTour.Domain
 {
-    class Currency
+    public class Currency
     {
+        public string Name { get; set; }
+        public string Iso4217Code { get; set; }
+        public static Currency GBP { get; } = new Currency { Name = "Great British Pound", Iso4217Code = "GBP" };
+        public static Currency USD { get; } = new Currency { Name = "United States Dollar", Iso4217Code = "USD" };
     }
 }

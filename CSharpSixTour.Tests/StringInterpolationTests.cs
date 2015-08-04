@@ -1,6 +1,5 @@
 ﻿using System;
 using CSharpSixTour.Domain;
-using CSharpSixTour.Tests.Mocks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Shouldly;
 

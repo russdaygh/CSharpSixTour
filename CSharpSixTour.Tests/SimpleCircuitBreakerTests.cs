@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Runtime.Remoting.Messaging;
 using CSharpSixTour.Patterns;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Shouldly;

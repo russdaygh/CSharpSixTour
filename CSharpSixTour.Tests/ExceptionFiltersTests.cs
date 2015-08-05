@@ -88,5 +88,6 @@ namespace CSharpSixTour.Tests
         };
 
         //https://lostechies.com/jimmybogard/2015/07/17/c-6-exception-filters-will-improve-your-home-life/
+        //http://www.thomaslevesque.com/2015/06/21/exception-filters-in-c-6/
     }
 }

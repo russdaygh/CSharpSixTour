@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CSharpSixTour.Domain;
+using Shouldly;
 
 namespace CSharpSixTour.Tests
 {
@@ -10,25 +10,25 @@ namespace CSharpSixTour.Tests
         [TestMethod]
         public void CSharp5_ExceptionFiltering()
         {
+            Exception exception = null;
+
             try
             {
-                Person person = new Person {
-                    FirstName = "Last",
-                    LastName = "First",
-                    Salary = new Salary {
-                        Currency = Currency.GBP,
-                        Amount = 1000
-                    }
-                };
-
-                MockCurrencyExchange exchange = new MockCurrencyExchange();
-
-                var dollars = exchange.Convert(person.Salary.Currency, Currency.USD, person.Salary.Amount);
+                int result = int.Parse(null);
+                //int result = int.Parse("not a number");
             }
-            catch(Exception ex)
+            catch(ArgumentNullException)
             {
-
+                Console.WriteLine("Handled argument null exception");
             }
-        }
+            catch(FormatException)
+            {
+                Console.WriteLine("Handled format exception");
+            }
+            catch(Exception)
+            {
+                throw;
+            }
+        }      
     }
 }

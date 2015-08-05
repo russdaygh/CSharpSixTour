@@ -56,7 +56,6 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="MockCurrencyExchange.cs" />
     <Compile Include="StringInterpolationTests.cs" />
     <Compile Include="NullConditionalOperatorTests.cs" />
     <Compile Include="Mocks\MockPersonRepository.cs" />

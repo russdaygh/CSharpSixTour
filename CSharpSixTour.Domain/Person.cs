@@ -11,6 +11,6 @@ namespace CSharpSixTour.Domain
         public PostalAddress Address { get; set; }
         public PhoneNumber[] PhoneNumbers { get; set; }
         public MailAddress Email { get; set; }
-        public Salary Salary { get; set; }
+        public int Salary { get; set; }
     }
 }

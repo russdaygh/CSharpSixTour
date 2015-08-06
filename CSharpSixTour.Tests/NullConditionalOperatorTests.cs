@@ -62,5 +62,7 @@ namespace CSharpSixTour.Tests
                 Console.WriteLine(PersonWithNullAddress.Address.Country?.Name);
             });
         }
+
+        //TODO: Put in a test that demonstrates it ACTUALLY working, you dimwit!
     }
 }

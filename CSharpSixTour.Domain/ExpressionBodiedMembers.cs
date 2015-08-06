@@ -7,6 +7,6 @@
 
     public partial class PhoneNumber
     {
-        public string FullNumber => DialingCode + Number.ToString();
+        public string FullNumber => $"{DialingCode} {Number}";
     }
 }

@@ -16,7 +16,7 @@ namespace CSharpSixTour.Patterns
 
         public Exception LastException { get; set; }
 
-        public SimpleCircuitBreaker(T target, SimpleCircuitBreakerConfig config, Predicate<Exception> exceptionFilter = null)
+        public SimpleCircuitBreaker(T target, SimpleCircuitBreakerConfig config, Predicate<Exception> exceptionFilter = null, CircuitBreakerState state = CircuitBreakerState.Open)
         {
             if(target == null)
             {
@@ -30,7 +30,7 @@ namespace CSharpSixTour.Patterns
             Target = target;
             Config = config;
             ExceptionFilter = exceptionFilter;
-            State = CircuitBreakerState.Open;
+            State = state;
         }
 
         public U Call<U>(Func<T, U> action)
@@ -63,6 +63,8 @@ namespace CSharpSixTour.Patterns
                 {
                     Close(e);
                 }
+
+                LastException = e;
 
                 throw;
             }

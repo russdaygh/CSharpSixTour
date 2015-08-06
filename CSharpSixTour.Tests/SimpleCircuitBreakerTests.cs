@@ -94,6 +94,21 @@ namespace CSharpSixTour.Tests
             cb.State.ShouldBe(CircuitBreakerState.Open);
             cb.LastException.ShouldBe(null);
         }
+
+        [TestMethod]
+        public void Call_IgnoreUnauthorisedAccess_ClosesOnOtherException()
+        {
+            // Arrange
+            var cb = new SimpleCircuitBreaker<TestClass>(new TestClass(),
+                new SimpleCircuitBreakerConfig {RetryThreshold = 0},
+                state: CircuitBreakerState.Closed);
+            
+            // Act
+            cb.Call(tc => tc.DoNothing());
+
+            // Assert
+            cb.State.ShouldBe(CircuitBreakerState.Open);
+        }
     }
 
     public class TestClass
@@ -106,6 +121,11 @@ namespace CSharpSixTour.Tests
         public void ThrowException()
         {
             throw new Exception("fake exception");
+        }
+
+        public void ThrowUnauthorisedAccessException()
+        {
+            throw new UnauthorizedAccessException("Not authorised");
         }
     }
 }
